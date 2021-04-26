@@ -2,9 +2,30 @@
 box-sizing:border-box;}
 
 body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 height:100vh;
 background-image: url("images/pattern-curve.svg");
 background-repeat: no-repeat;
  background-position:left bottom;
  margin:0;
+}
+.slider{
+border:2px solid red;
+width:85%;
+height:650px;
+background-image: url("images/pattern-bg.svg");
+background-repeat: no-repeat;
+ background-position:right center;
+}
+
+
+
+.container{
+	border:1px solid black;
+float:right;
+width:540px;
+height:540px;
+margin: 4% 5% 4% 0;
 }
