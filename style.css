@@ -1,0 +1,10 @@
+*{
+box-sizing:border-box;}
+
+body{
+height:100vh;
+background-image: url("images/pattern-curve.svg");
+background-repeat: no-repeat;
+ background-position:left bottom;
+ margin:0;
+}
