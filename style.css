@@ -10,9 +10,14 @@ background-image: url("images/pattern-curve.svg");
 background-repeat: no-repeat;
  background-position:left bottom;
  margin:0;
+     font-family: 'Inter', sans-serif;
 }
 .slider{
-border:2px solid red;
+	display:flex;
+	flex-direction:row;
+	
+	align-items:center;
+	border:2px solid red;
 width:75%;
 height:650px;
 background-image: url("images/pattern-bg.svg");
@@ -24,10 +29,10 @@ background-repeat: no-repeat;
 
 .container{
 	
-float:right;
+transform: translate(2%, 1%);
 width:540px;
 height:540px;
-margin: 4% 5% 4% 0;
+
 
 }
 .container img{
@@ -38,17 +43,38 @@ border-radius:5px;}
 	height:50px;
 	border:none;
 	background-color:white;
-	transform:translate(1050px,580px);
+	transform: translate(-860%,550%);
 	padding:11px;
 cursor:pointer;
-box-shadow:0px 25px 20px  hsl(240, 38%, 90%);
+
 }
 .before{
 	border-top-left-radius:30px;
 	border-bottom-left-radius:30px;
+box-shadow: -6px 20px 40px 10px hsl(240, 38%, 85%);
 }
 .next{
 	border-top-right-radius:30px;
 	border-bottom-right-radius:30px;
 	margin-left:-10px;
+	box-shadow: 30px 20px 40px 10px hsl(240, 38%, 85%);
+}
+
+.text{
+	display:flex;
+	align-items:center;
+	position:relative;
+	border:2px solid red;
+	width:55%;
+	margin-left:15%;
+	height:340px;
+	margin-right:-120px;
+	z-index:1;
+	font-size:32px;
+	font-weight:300;
+	line-height:1.5;
+	background-image: url("images/pattern-quotes.svg");
+	background-repeat:no-repeat;
+	background-position: 20% 0%;
+	
 }
