@@ -43,7 +43,7 @@ border-radius:5px;}
 	height:50px;
 	border:none;
 	background-color:white;
-	transform: translate(-860%,550%);
+	transform: translate(-830%,550%);
 	padding:11px;
 cursor:pointer;
 
@@ -62,7 +62,7 @@ box-shadow: -6px 20px 40px 10px hsl(240, 38%, 85%);
 
 .text{
 	display:flex;
-	align-items:center;
+	flex-direction:column;
 	position:relative;
 	width:55%;
 	margin-left:10%;
@@ -73,6 +73,19 @@ box-shadow: -6px 20px 40px 10px hsl(240, 38%, 85%);
 	line-height:1.5;
 	background-image: url("images/pattern-quotes.svg");
 	background-repeat:no-repeat;
-	background-position: 20% 0%;
-	height:350px;
+	background-position: 18% 0%;
+	height:390px;
+	border:1px solid red;
+justify-content:flex-end;
+}
+p{
+	margin-top:40px;
+font-size:22px;
+color:hsl(240, 18%, 77%);
+font-weight:500;
+float:left;
+}
+
+strong{
+color: hsl(240, 38%, 20%);
 }
