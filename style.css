@@ -64,10 +64,8 @@ box-shadow: -6px 20px 40px 10px hsl(240, 38%, 85%);
 	display:flex;
 	align-items:center;
 	position:relative;
-	
 	width:55%;
 	margin-left:10%;
-
 	margin-right:-120px;
 	z-index:1;
 	font-size:32px;
