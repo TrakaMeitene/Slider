@@ -15,16 +15,25 @@ background-repeat: no-repeat;
 .slider{
 	display:flex;
 	flex-direction:row;
-	
 	align-items:center;
-	
-width:75%;
-height:650px;
+width:85%;
+height:700px;
 background-image: url("images/pattern-bg.svg");
 background-repeat: no-repeat;
  background-position:right center;
-}
 
+}
+#otrs{
+display:none;}
+
+.mySlides{
+	display:block;
+	width:90%;
+	height:700px;
+	  position: relative;
+	  border:1px solid red;
+}
+	
 
 
 .container{
@@ -39,11 +48,12 @@ height:540px;
 border-radius:5px;}
 
 .before, .next{
+	  position: absolute;
 	width:60px;
 	height:50px;
 	border:none;
 	background-color:white;
-	transform: translate(-830%,550%);
+	transform: translate(1600%,550%);
 	padding:11px;
 cursor:pointer;
 
@@ -52,6 +62,8 @@ cursor:pointer;
 	border-top-left-radius:30px;
 	border-bottom-left-radius:30px;
 box-shadow: -6px 20px 40px 10px hsl(240, 38%, 85%);
+margin-left: -60px;
+
 }
 .next{
 	border-top-right-radius:30px;
