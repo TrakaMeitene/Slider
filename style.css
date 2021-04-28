@@ -23,24 +23,16 @@ background-image: url("images/pattern-bg.svg");
 background-repeat: no-repeat;
  background-position:right center;
  background-size:contain;
-position:relative;
-
 }
 
 
-.container{
 
-right:0;
-
-width:28%;
-
-border:2px solid red;
-}
 .anim{
 	  animation: mymove 0.5s;
 animation-timing-function: linear;}
 
 .container img{
+
 border-radius:5px;
   width: 100%;
   height: auto;}
@@ -129,7 +121,7 @@ right:initial;
 
 margin:auto;
 width:70%;
-height:500px;
+
 }
 body{
 	height:auto;
