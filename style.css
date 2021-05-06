@@ -75,11 +75,15 @@ border-radius:20px;
 position:absolute;
 box-shadow: -10px 20px 40px 8px  hsl(240, 18%, 87%);
 }
+button:focus, .next:focus, .prev:focus{
+	outline: none;
+}
 .next{
 	position:absolute;
 right:0;
 padding:11px;
 cursor:pointer;}
+
 .prev{
 	position:relative;
 	padding:11px;
